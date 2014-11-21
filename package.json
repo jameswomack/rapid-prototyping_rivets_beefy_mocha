@@ -1,0 +1,27 @@
+{
+  "name": "rivets_in_netflix",
+  "version": "1.0.0",
+  "description": "Rivets example",
+  "main": "index.js",
+  "scripts": {
+    "start": "beefy js/index.js --live --open --index=html/index.html -- -t brfs",
+    "test": "jshint --reporter node_modules/jshint-stylish/stylish.js js/*.js && mocha --reporter spec --require test/unit/bootstrap.js test/unit/specs/**/*.js"
+  },
+  "author": "James Womack",
+  "license": "ISC",
+  "devDependencies": {
+    "beefy": "^2.1.1",
+    "brfs": "^1.2.0",
+    "browserify": "^6.3.2",
+    "chai": "^1.10.0",
+    "jshint": "^2.5.10",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^2.0.1"
+  },
+  "dependencies": {
+    "underscore": "1.7.0",
+    "backbone": "^1.1.2",
+    "jquery": "^2.1.1",
+    "rivets": "^0.7.1"
+  }
+}
