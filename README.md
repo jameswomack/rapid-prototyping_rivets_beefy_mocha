@@ -1,7 +1,8 @@
 # Leveraging Rivets & Beefy
 
-![Beefy logo](https://raw.githubusercontent.com/jameswomack/rivets_example/master/img/beefy_logo.png)
+
 ![Rivets logo](https://raw.githubusercontent.com/jameswomack/rivets_example/master/img/rivets_logo.png)
+![Beefy logo](https://raw.githubusercontent.com/jameswomack/rivets_example/master/img/beefy_logo.png) 
 
 
 ## Getting started
@@ -50,6 +51,12 @@ npm start
 
 #### Rivets
 Type in the input field within the page launched in your browser. See that the `<h2>` above it updates. This is demonstrating a three-way binding between the `<input>`, a `Backbone.Model` and the `<h2>`. 
+
+Let's check out the view code: `cat -n js/view.js` (or `curl -L http://is.gd/5M9ny7|cat -n` if you're an HTTP person). The most important things happening here are:
+* Rivets is imported from a Rivets-Backbone importer
+* A Rivets HTML template is loaded via BRFS
+* A Rivets binding is created inside a once-run function inside `render`
+
 
 #### Beefy / BRFS
 See the output of `node -e "console.log(require('./package.json').scripts.start)"`.
