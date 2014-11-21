@@ -1,5 +1,8 @@
 # Leveraging Rivets & Beefy
 
+![Beefy logo](https://raw.githubusercontent.com/jameswomack/rivets_example/master/img/beefy_logo.png)
+![Rivets logo](https://raw.githubusercontent.com/jameswomack/rivets_example/master/img/rivets_logo.png)
+
 
 ## Getting started
 ```
